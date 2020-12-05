@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/model/api.dart';
+import 'package:flutter_app/tab/body/all_product.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
@@ -86,7 +87,7 @@ class Category extends StatelessWidget {
                     child: Text(
                       'Kategori',
                       style:
-                          TextStyle(fontWeight: FontWeight.bold, fontSize: 20),
+                          TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
                     ),
                   ),
                   Container(
@@ -104,14 +105,36 @@ class Category extends StatelessWidget {
                       ),
                     ),
                   ),
-                  Padding(
-                      padding: EdgeInsets.only(top: 10, bottom: 10),
-                      child: Text(
-                        'Product',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold, fontSize: 20),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: <Widget>[
+                      Padding(
+                        padding: EdgeInsets.only(top: 10, bottom: 10),
+                        child: Text(
+                          'Product',
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold, fontSize: 18),
+                        ),
                       ),
-                    ),
+                      Padding(
+                        padding: EdgeInsets.only(top: 10, bottom: 10),
+                        child: InkWell(
+                                                  child: Text(
+                            'Lihat Semua',
+                            style: TextStyle(
+                                fontWeight: FontWeight.bold, fontSize: 18, color: Colors.green),
+                          ),
+                          onTap: () {
+                            Navigator.push(
+                        context,
+                        new MaterialPageRoute(
+                            builder: (context) =>
+                                AllProduct()));
+                          },
+                        ),
+                      ),
+                    ],
+                  ),
                 ],
               ),
             ),
@@ -153,7 +176,7 @@ class Category extends StatelessWidget {
                   children: <Widget>[
                     Text(
                       _categories(snapshot.data[index]),
-                      style: TextStyle(fontWeight: FontWeight.bold),
+                      style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14.0),
                     ),
                   ],
                 ),
@@ -192,7 +215,8 @@ class Category extends StatelessWidget {
               decoration: BoxDecoration(
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: Icon(Icons.confirmation_number,
+              child: Icon(
+                Icons.confirmation_number,
                 color: Colors.white,
                 size: 30.0,
               ),
@@ -203,7 +227,7 @@ class Category extends StatelessWidget {
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
-                     _voucherImage[index]['name'],
+                    _voucherImage[index]['name'],
                     style: TextStyle(
                         fontWeight: FontWeight.bold, color: Colors.white),
                   ),
@@ -217,7 +241,10 @@ class Category extends StatelessWidget {
                   ),
                   Text(
                     "Voucher",
-                    style: TextStyle(fontSize: 12, color: Colors.white, fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        fontSize: 12,
+                        color: Colors.white,
+                        fontWeight: FontWeight.bold),
                   ),
                 ],
               ),

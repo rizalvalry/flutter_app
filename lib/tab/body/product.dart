@@ -372,7 +372,8 @@ class DetailProduct extends StatelessWidget {
                           ))
                     ]))
           ],
-        ));
+        )
+        );
   }
 
   Widget _newStackProperty(BuildContext context) => Container(

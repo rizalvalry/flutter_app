@@ -95,7 +95,8 @@ class _HomeState extends State<Home> {
               child: Product(),
             ),
           ],
-        ));
+        )
+      );
   }
 
   Widget _stackProperty() => Container(
