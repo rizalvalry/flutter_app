@@ -1,0 +1,856 @@
+{
+    "status": true,
+    "message": "Products was fetched",
+    "products": [
+        {
+            "categoryId": "5f8417868ee747357809138a",
+            "name": [
+                {
+                    "languageId": "5f72d22eb00d2d24a528b06e",
+                    "name": "Apparel & Accessories"
+                }
+            ],
+            "quantity": 27,
+            "image": {
+                "original": "https://base.api.bee2beehub.com/uploads/publics/categories/1605114367228.jpeg",
+                "small": "https://base.api.bee2beehub.com/uploads/publics/categories/smalls/small-1605114367228.jpeg",
+                "thumb": "https://base.api.bee2beehub.com/uploads/publics/categories/thumbs/thumb-1605114367228.jpeg"
+            },
+            "products": [
+                {
+                    "_id": "5f88fccb6060cb6afe4da49b",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "we"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5f88fccb6060cb6afe4da49e",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1602813131365.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1602813131365.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1602813131365.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5f88fccb6060cb6afe4da49d",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 23
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5f8699746f40ad45b9c5e012",
+                        "name": "fe"
+                    }
+                },
+                {
+                    "_id": "5f85064c887aa57524dd9459",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "Botol Mug"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5f85064c887aa57524dd945c",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1602553420461.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1602553420461.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1602553420461.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5f85064c887aa57524dd945b",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 48000
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5f837f6b8ee747357809132c",
+                        "name": "Aming Soleh"
+                    }
+                },
+                {
+                    "_id": "5fb68e299af0842ff5701191",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "Sepeda Gunung Anak"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fb68e299af0842ff5701194",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605799461883.png",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605799461883.png",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605799461883.png",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fb68e299af0842ff5701193",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 18000000
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 10,
+                    "store": {
+                        "_id": "5f837f6b8ee747357809132c",
+                        "name": "Aming Soleh"
+                    }
+                },
+                {
+                    "_id": "5fab5fbd6767543bff602af4",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "mamaliaaa"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fabb51eaddfde6d469aaf10",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605088510273.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605088510273.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605088510273.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fabb51eaddfde6d469aaf11",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 1234568
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5faa196707994b2055f424e3",
+                        "name": "pt maju terus"
+                    }
+                },
+                {
+                    "_id": "5f717ee4c9523718801f78aa",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "Chair"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 4
+                    },
+                    "files": [
+                        {
+                            "_id": "5fab880487dceb43badf53b2",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1604990686851.mp4",
+                            "fileType": "video"
+                        },
+                        {
+                            "_id": "5fab880487dceb43badf53b3",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605076996058.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605076996058.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605076996058.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fab880487dceb43badf53b4",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 34
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5f658bdf3eea8c4d606f2cc5",
+                        "name": "PT COBA COBA"
+                    }
+                },
+                {
+                    "_id": "5face3666e066c1408f10203",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "fsfsdf"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 10
+                    },
+                    "files": [
+                        {
+                            "_id": "5face65f8c92f71598b29fe3",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605165926582.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605165926582.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605165926582.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5face65f8c92f71598b29fe4",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 1
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5f658bdf3eea8c4d606f2cc5",
+                        "name": "PT COBA COBA"
+                    }
+                },
+                {
+                    "_id": "5f90e818a6f0216f9cd52b35",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "Rolex"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5f90e818a6f0216f9cd52b38",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1603332120248.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1603332120248.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1603332120248.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5f90e818a6f0216f9cd52b37",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 23
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 2,
+                    "store": {
+                        "_id": "5f8699746f40ad45b9c5e012",
+                        "name": "fe"
+                    }
+                }
+            ]
+        },
+        {
+            "categoryId": "5f8423a6dd12c77490f224af",
+            "name": [
+                {
+                    "languageId": "5f6589713eea8c4d606f2cb4",
+                    "name": "Furnitur"
+                }
+            ],
+            "quantity": 13,
+            "image": {
+                "original": "https://base.api.bee2beehub.com/uploads/publics/categories/1605114433882.jpeg",
+                "small": "https://base.api.bee2beehub.com/uploads/publics/categories/smalls/small-1605114433882.jpeg",
+                "thumb": "https://base.api.bee2beehub.com/uploads/publics/categories/thumbs/thumb-1605114433882.jpeg"
+            },
+            "products": [
+                {
+                    "_id": "5faa3070854b882ca49436d9",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "23"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fab881a87dceb43badf53b6",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605077018361.png",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605077018361.png",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605077018361.png",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fab881a87dceb43badf53b7",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 23
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5f658bdf3eea8c4d606f2cc5",
+                        "name": "PT COBA COBA"
+                    }
+                },
+                {
+                    "_id": "5fbe48587991bf3e66b130f6",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5fb7892843438511d9188bf7",
+                            "name": "ddada"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 3
+                    },
+                    "files": [
+                        {
+                            "_id": "5fbe48587991bf3e66b130f9",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1606305880490/1.jpg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/1606305880490/smalls/small-1.jpg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/1606305880490/thumbs/thumb-1.jpg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fbe48587991bf3e66b130f8",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 12222
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 22,
+                    "store": {
+                        "_id": "5f658bdf3eea8c4d606f2cc5",
+                        "name": "PT COBA COBA"
+                    }
+                },
+                {
+                    "_id": "5f670117700aab358dd617fa",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "Jam 33"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fb3427b9f0a6b2645f60824",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605583170792.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605583170792.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605583170792.jpeg",
+                            "fileType": "image"
+                        },
+                        {
+                            "_id": "5fb3427b9f0a6b2645f60825",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605583482608.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605583482608.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605583482608.jpeg",
+                            "fileType": "image"
+                        },
+                        {
+                            "_id": "5fb3427b9f0a6b2645f60826",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605583482908.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605583482908.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605583482908.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fb3427b9f0a6b2645f60827",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 233434
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5f658bdf3eea8c4d606f2cc5",
+                        "name": "PT COBA COBA"
+                    }
+                },
+                {
+                    "_id": "5fa8e55b3a2d8a76ccd0555c",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "HP"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fa8e55b3a2d8a76ccd0555f",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1604904283402.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1604904283402.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1604904283402.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fa8e55b3a2d8a76ccd0555e",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 1000000
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5fa8c8f93a2d8a76ccd05548",
+                        "name": "PT Abadinanjaya"
+                    }
+                },
+                {
+                    "_id": "5fa8f6b06fca5212df97c812",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f72d22eb00d2d24a528b06e",
+                            "name": "23"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fa8f6b06fca5212df97c815",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1604908720595.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1604908720595.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1604908720595.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fa8f6b06fca5212df97c814",
+                            "currencyId": "5f81c4e18ee7473578091316",
+                            "currencyCode": "FR",
+                            "currencyName": "Swiss Franc",
+                            "price": 23
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5fa8c8f93a2d8a76ccd05548",
+                        "name": "PT Abadinanjaya"
+                    }
+                },
+                {
+                    "_id": "5face11eb2a0587acf494ae6",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "23"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 2
+                    },
+                    "files": [
+                        {
+                            "_id": "5face11eb2a0587acf494ae9",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605165342234.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605165342234.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605165342234.jpeg",
+                            "fileType": "image"
+                        },
+                        {
+                            "_id": "5face11eb2a0587acf494aea",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605165342255.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605165342255.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605165342255.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5face11eb2a0587acf494ae8",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 23
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 2,
+                    "store": {
+                        "_id": "5f658bdf3eea8c4d606f2cc5",
+                        "name": "PT COBA COBA"
+                    }
+                },
+                {
+                    "_id": "5fbe3d1c7991bf3e66b130e6",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5fb7892843438511d9188bf7",
+                            "name": "dadsda"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 3
+                    },
+                    "files": [
+                        {
+                            "_id": "5fbe3d1c7991bf3e66b130e9",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1606303004117/1.jpg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/1606303004117/smalls/small-1.jpg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/1606303004117/thumbs/thumb-1.jpg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fbe3d1c7991bf3e66b130e8",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 1000
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 12,
+                    "store": {
+                        "_id": "5f658bdf3eea8c4d606f2cc5",
+                        "name": "PT COBA COBA"
+                    }
+                }
+            ]
+        },
+        {
+            "categoryId": "5f8d4eaa0da7720779e04e1a",
+            "name": [
+                {
+                    "languageId": "5f6589713eea8c4d606f2cb4",
+                    "name": "Electronik"
+                }
+            ],
+            "quantity": 7,
+            "image": {
+                "original": "https://base.api.bee2beehub.com/uploads/publics/categories/1605114471016.jpeg",
+                "small": "https://base.api.bee2beehub.com/uploads/publics/categories/smalls/small-1605114471016.jpeg",
+                "thumb": "https://base.api.bee2beehub.com/uploads/publics/categories/thumbs/thumb-1605114471016.jpeg"
+            },
+            "products": [
+                {
+                    "_id": "5facd636b2a0587acf494ab9",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "Yamaha"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5facd66ab2a0587acf494ac0",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605162546836.png",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605162546836.png",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605162546836.png",
+                            "fileType": "image"
+                        },
+                        {
+                            "_id": "5facd66ab2a0587acf494ac1",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605162547378.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605162547378.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605162547378.jpeg",
+                            "fileType": "image"
+                        },
+                        {
+                            "_id": "5facd66ab2a0587acf494ac2",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605162547379.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605162547379.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605162547379.jpeg",
+                            "fileType": "image"
+                        },
+                        {
+                            "_id": "5facd66ab2a0587acf494ac3",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605162547402.mp4",
+                            "fileType": "video"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5facd66ab2a0587acf494ac4",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 2000000000
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 30,
+                    "store": {
+                        "_id": "5f8c67c10da7720779e04d94",
+                        "name": "Paris Colabrate"
+                    }
+                },
+                {
+                    "_id": "5fa8e2ee3a2d8a76ccd05551",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "Pasti Lakus"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fad07479f0a6b2645f60636",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605170209559.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605170209559.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605170209559.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fad07479f0a6b2645f60637",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 100000
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5fa8c8f93a2d8a76ccd05548",
+                        "name": "PT Abadinanjaya"
+                    }
+                },
+                {
+                    "_id": "5fc0cf266ac4f947329f32eb",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5fb7892843438511d9188bf7",
+                            "name": "w"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fc0cf266ac4f947329f32ee",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1606471462854/1.jpg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/1606471462854/smalls/small-1.jpg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/1606471462854/thumbs/thumb-1.jpg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fc0cf266ac4f947329f32ed",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 1
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 1,
+                    "store": {
+                        "_id": "5fa907c86fca5212df97c819",
+                        "name": "ahoy"
+                    }
+                },
+                {
+                    "_id": "5facd4eeb2a0587acf494ab1",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "23"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5facd4eeb2a0587acf494ab4",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605162222353.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605162222353.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605162222353.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5facd4eeb2a0587acf494ab3",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 1000
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 2,
+                    "store": {
+                        "_id": "5f658bdf3eea8c4d606f2cc5",
+                        "name": "PT COBA COBA"
+                    }
+                },
+                {
+                    "_id": "5facdc38b2a0587acf494ace",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "Malam - malam belajar"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fad0cd29f0a6b2645f60666",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1605164082073.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1605164082073.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1605164082073.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fad0cd29f0a6b2645f60667",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 5000000000
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5fa8c8f93a2d8a76ccd05548",
+                        "name": "PT Abadinanjaya"
+                    }
+                },
+                {
+                    "_id": "5fa90e418dfa3d1f59b90471",
+                    "wishlist": false,
+                    "nameCurrentLanguage": [
+                        {
+                            "languageId": "5f6589713eea8c4d606f2cb4",
+                            "name": "Yakin Laku"
+                        }
+                    ],
+                    "details": {
+                        "minPurchase": 1
+                    },
+                    "files": [
+                        {
+                            "_id": "5fa910da8dfa3d1f59b9048e",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1604914753214.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1604914753214.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1604914753214.jpeg",
+                            "fileType": "image"
+                        },
+                        {
+                            "_id": "5fa910da8dfa3d1f59b9048f",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1604915365641.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1604915365641.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1604915365641.jpeg",
+                            "fileType": "image"
+                        },
+                        {
+                            "_id": "5fa910da8dfa3d1f59b90490",
+                            "original": "https://base.api.bee2beehub.com/uploads/publics/products/1604915416530.jpeg",
+                            "small": "https://base.api.bee2beehub.com/uploads/publics/products/smalls/small-1604915416530.jpeg",
+                            "thumb": "https://base.api.bee2beehub.com/uploads/publics/products/thumbs/thumb-1604915416530.jpeg",
+                            "fileType": "image"
+                        }
+                    ],
+                    "price": [
+                        {
+                            "_id": "5fa910da8dfa3d1f59b90491",
+                            "currencyId": "5f6589fa3eea8c4d606f2cbc",
+                            "currencyCode": "IDR",
+                            "currencyName": "Rupiah",
+                            "price": 100000000000
+                        }
+                    ],
+                    "subPrice": [],
+                    "discount": 0,
+                    "store": {
+                        "_id": "5fa90d5d8dfa3d1f59b9045f",
+                        "name": "PT. Cola coca"
+                    }
+                }
+            ]
+        }
+    ]
+}

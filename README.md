@@ -1,12 +1,19 @@
 # flutter_app
 
 A Flutter Wagros by Rizal Valry.
-- [Cek My Profile & Follow me at](https://github.com/rizalvalry)
+- [Cek My Profile & Follow me at here](https://github.com/rizalvalry)
 - [My Base on Corp](https://valryhouse.com)
+- version: 1.0.0+1
+- sdk: ">=2.7.0 <3.0.0"
+- Flutter v 51.0.2 -> 52.0.1
 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
+
+1. flutter pub get
+2. flutter run
+3. if any error, try flutter clean
 
 A few resources to get you started if this is your first Flutter project:
 

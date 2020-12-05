@@ -54,7 +54,7 @@ class _HomeState extends State<Home> {
               onChanged: (text) {
                 text = text.toLowerCase();
                 setState(() {
-                  print("I'm still progress and but its time to tired, sorry I Don't Have to much Time");
+                  print("still on progress and but it's time to tired, sorry I Don't Have to much Time");
                 });
               },
             ),
@@ -97,27 +97,6 @@ class _HomeState extends State<Home> {
           ],
         ));
   }
-
-  Widget _buttonVoucher() => Container(
-        child: RaisedButton.icon(
-          onPressed: () {
-            print('Button Clicked.');
-          },
-          shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.all(Radius.circular(10.0))),
-          label: Text(
-            'Button With Left Icon',
-            style: TextStyle(color: Colors.white),
-          ),
-          icon: Icon(
-            Icons.camera_alt,
-            color: Colors.white,
-          ),
-          textColor: Colors.white,
-          splashColor: Colors.red,
-          color: Colors.lightBlue,
-        ),
-      );
 
   Widget _stackProperty() => Container(
         constraints: BoxConstraints.expand(height: 160),

@@ -38,7 +38,7 @@ class _ProfileState extends State<Profile> {
             IconButton(
               icon: Icon(CupertinoIcons.person_solid, size: 20,),
               onPressed: () {
-                _settingModalBottomSheet(context);
+                _logOutModalBottom(context);
               },
             ),
           ],
@@ -76,50 +76,7 @@ Widget _newStackProperty() => Container(
         ),
       );
 
-  // return Scaffold(
-  //     appBar: AppBar(
-  //       title: Text("Bee2beehub", style: TextStyle(color: Colors.white)),
-  //       actions: <Widget>[
-  //         FlatButton(
-  //           onPressed: () {
-  //             // sharedPreferences.clear();
-  //             // sharedPreferences.commit();
-  //             Navigator.of(context).pushAndRemoveUntil(
-  //                 MaterialPageRoute(
-  //                     builder: (BuildContext context) => LoginPage()),
-  //                 (Route<dynamic> route) => false);
-  //           },
-  //           child: Text("Log Out", style: TextStyle(color: Colors.white)),
-  //         ),
-  //       ],
-  //     ),
-  //     body: Center(
-  //         child: Column(
-  //      mainAxisAlignment: MainAxisAlignment.center,
-  //       children: <Widget>[
-  //         Text(
-  //           'You have pushed the button this many times:',
-  //         ),
-  //         Text(
-  //           '$_counter',
-  //           style: Theme
-  //               .of(context)
-  //               .textTheme
-  //               .display1,
-  //         ),
-  //       ],
-  //     ),
-  //   ),
-  //   floatingActionButton: FloatingActionButton(
-  //     onPressed: () {
-  //       _settingModalBottomSheet(context);
-  //     },
-  //     tooltip: 'Increment',
-  //     child: Icon(Icons.exit_to_app),
-  //   ), // This trailing comma makes auto-formatting nicer for build methods.
-  // );
-
-  void _settingModalBottomSheet(context) {
+  void _logOutModalBottom(context) {
     showModalBottomSheet(context: context, builder: (BuildContext bc) {
       return new Container(
         color: Colors.transparent,

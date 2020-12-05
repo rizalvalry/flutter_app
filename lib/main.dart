@@ -3,6 +3,7 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_app/login.dart';
+import 'package:flutter_app/splashscreen_view.dart';
 import 'package:flutter_app/tab/cart.dart';
 import 'package:flutter_app/tab/checkout.dart';
 import 'package:flutter_app/tab/home.dart';
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: "Flutter bee2beehub.com",
       debugShowCheckedModeBanner: false,
-      home: MainPage(),
+      home: SplashScreenPage(),
       theme: ThemeData(accentColor: Colors.white70),
     );
   }
