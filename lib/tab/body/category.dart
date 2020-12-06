@@ -65,23 +65,10 @@ class Category extends StatelessWidget {
           Flexible(
             flex: 1,
             child: Container(
-              margin: const EdgeInsets.all(20),
+              margin: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
-                  Container(
-                    child: Expanded(
-                      child: ListView.separated(
-                        physics: PageScrollPhysics(),
-                        separatorBuilder: (context, index) => Divider(
-                          indent: 3,
-                        ),
-                        scrollDirection: Axis.horizontal,
-                        itemCount: _voucherImage.length,
-                        itemBuilder: (context, index) => voucherBrand(index),
-                      ),
-                    ),
-                  ),
                   Padding(
                     padding: EdgeInsets.only(top: 10, bottom: 10),
                     child: Text(
@@ -111,7 +98,7 @@ class Category extends StatelessWidget {
                       Padding(
                         padding: EdgeInsets.only(top: 10, bottom: 10),
                         child: Text(
-                          'Product',
+                          'Produk Terbaru',
                           style: TextStyle(
                               fontWeight: FontWeight.bold, fontSize: 18),
                         ),
@@ -170,7 +157,7 @@ class Category extends StatelessWidget {
                 ),
               ),
               Padding(
-                padding: const EdgeInsets.only(left: 8),
+                padding: const EdgeInsets.all(8),
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
@@ -191,67 +178,4 @@ class Category extends StatelessWidget {
     );
   }
 
-  Widget voucherBrand(index) {
-    return SizedBox(
-      height: 30,
-      width: 180,
-      child: Container(
-        margin: const EdgeInsets.only(top: 5),
-        padding: const EdgeInsets.all(10),
-        decoration: BoxDecoration(
-          color: Color(0xFF8BC34A),
-          border: Border.all(
-            width: 1.5,
-            color: Colors.transparent,
-          ),
-          borderRadius: BorderRadius.circular(10),
-        ),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: <Widget>[
-            Container(
-              height: 30,
-              width: 30,
-              decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: Icon(
-                Icons.confirmation_number,
-                color: Colors.white,
-                size: 30.0,
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.only(left: 8),
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: <Widget>[
-                  Text(
-                    _voucherImage[index]['name'],
-                    style: TextStyle(
-                        fontWeight: FontWeight.bold, color: Colors.white),
-                  ),
-                  Text(
-                    _voucherImage[index]['cat'],
-                    style: TextStyle(fontSize: 12, color: Colors.white),
-                  ),
-                  Text(
-                    _voucherImage[index]['open'],
-                    style: TextStyle(fontSize: 12, color: Colors.white),
-                  ),
-                  Text(
-                    "Voucher",
-                    style: TextStyle(
-                        fontSize: 12,
-                        color: Colors.white,
-                        fontWeight: FontWeight.bold),
-                  ),
-                ],
-              ),
-            )
-          ],
-        ),
-      ),
-    );
-  }
 }

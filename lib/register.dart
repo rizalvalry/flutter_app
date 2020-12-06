@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter_app/login.dart';
 import 'package:http/http.dart' as http;
@@ -159,14 +160,14 @@ class _RegisterState extends State<Register> {
             ),
             SizedBox(height: 30.0),
             CheckboxListTile(
-              title: Text("I have read and agree to the Privacy Police"),
+              title: Text("I have read and agree to the Privacy Police", style: TextStyle(fontSize: 14),),
               controlAffinity: ListTileControlAffinity.leading,
               activeColor: Colors.blue,
               value: _termsChecked,
               onChanged: (bool value) => setState(() => _termsChecked = value),
               subtitle: !_termsChecked
                   ? Padding(
-                      padding: EdgeInsets.fromLTRB(12.0, 0, 0, 0),
+                      padding: EdgeInsets.symmetric(vertical: 4),
                       child: Text(
                         'Required field',
                         style:
@@ -287,7 +288,10 @@ class _RegisterState extends State<Register> {
       child: Column(
         children: <Widget>[
           Center(
-            child: Text("Atau Daftar Menggunakan"),
+            child: Text(
+              "Atau Daftar Menggunakan",
+              style: TextStyle(color: Colors.black54),
+            ),
           ),
           Padding(
             padding: EdgeInsets.only(bottom: 20.0),
@@ -304,15 +308,27 @@ class _RegisterState extends State<Register> {
             padding: EdgeInsets.only(top: 20.0),
           ),
           Center(
-            child: new InkWell(
-                child: new Text('Sudah Punya Akun? Login Disini!'),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => LoginPage()),
-                  );
-                }),
-          ),
+              child: InkWell(
+            child: RichText(
+              text: TextSpan(
+                text: 'Sudah Punya Akun? Login',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold, color: Colors.black54),
+                children: <TextSpan>[
+                  TextSpan(
+                      text: ' Disini!',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, color: Colors.green)),
+                ],
+              ),
+            ),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => LoginPage()),
+              );
+            },
+          )),
         ],
       ),
     );

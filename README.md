@@ -15,6 +15,14 @@ This project is a starting point for a Flutter application.
 2. flutter run
 3. if any error, try flutter clean
 
+## ScreenShoot Pages
+<img src ="assets/screenshot/login.png" height="200">
+<img src ="assets/screenshot/signup.png" height="200">
+<img src ="assets/screenshot/signupbottom.png" height="200">
+<img src ="assets/screenshot/homepage.png" height="200">
+<img src ="assets/screenshot/detailpage.png" height="200">
+<img src ="assets/screenshot/allproduct.png" height="200">
+
 A few resources to get you started if this is your first Flutter project:
 
 - [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)

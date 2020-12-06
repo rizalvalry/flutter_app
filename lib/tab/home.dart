@@ -3,6 +3,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_app/tab/body/banner.dart' as banner;
 import 'package:flutter_app/tab/body/category.dart';
 import 'package:flutter_app/tab/body/product.dart';
+import 'package:flutter_app/tab/body/voucher.dart';
 
 class Home extends StatefulWidget {
   Home({Key key}) : super(key: key);
@@ -29,12 +30,13 @@ class _HomeState extends State<Home> {
           automaticallyImplyLeading: false,
           backgroundColor: Color(0xFF8BC34A),
           // toolbarHeight: 30,
-          elevation: 0,
+          elevation: 1,
           titleSpacing: 20,
           title: Container(
             // margin: EdgeInsets.symmetric(horizontal: 10.0, vertical: 12),
             // color: Colors.white,
-            margin: new EdgeInsets.only(bottom: 15.0, top: 15.0),
+            margin: new EdgeInsets.symmetric(vertical: 20.0),
+            padding: const EdgeInsets.symmetric(vertical: 20.0),
             child: TextField(
               autofocus: false,
               style: TextStyle(fontSize: 15.0, color: Color(0xFFbdc6cf)),
@@ -44,15 +46,15 @@ class _HomeState extends State<Home> {
                 hintText: 'Search',
                 focusedBorder: OutlineInputBorder(
                   borderSide: BorderSide(color: Colors.white),
-                  borderRadius: BorderRadius.circular(15),
+                  borderRadius: BorderRadius.circular(10),
                 ),
                 enabledBorder: UnderlineInputBorder(
                   borderSide: BorderSide(color: Colors.white),
-                  borderRadius: BorderRadius.circular(15),
+                  borderRadius: BorderRadius.circular(10),
                 ),
               ),
               onChanged: (text) {
-                text = text.toLowerCase();
+                text = text.toUpperCase();
                 setState(() {
                   print("still on progress and but it's time to tired, sorry I Don't Have to much Time");
                 });
@@ -84,7 +86,14 @@ class _HomeState extends State<Home> {
               padding: EdgeInsets.only(bottom: 10.0),
             ),
             Container(
-              height: 325,
+              height: 100,
+              child: Voucher(),
+            ),
+            new Padding(
+              padding: EdgeInsets.only(bottom: 10.0),
+            ),
+            Container(
+              height: 225,
               child: Category(),
             ),
             new Padding(

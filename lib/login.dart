@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:http/http.dart' as http;
@@ -79,7 +80,9 @@ class _LoginPageState extends State<LoginPage> {
         child: Column(children: <Widget>[
           new Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [new Text("Remember me"), new Text("Lupa Password?")]),
+              children: [
+              new Text("Remember me"), 
+              new Text("Lupa Password?", style: TextStyle(color: Colors.green),)]),
         ]));
   }
 
@@ -178,7 +181,10 @@ class _LoginPageState extends State<LoginPage> {
       child: Column(
         children: <Widget>[
           Center(
-            child: Text("Atau Login Dengan"),
+            child: Text(
+              "Atau Login Dengan",
+              style: TextStyle(color: Colors.black54)
+            ),
           ),
           Padding(
             padding: EdgeInsets.only(bottom: 20.0),
@@ -195,15 +201,27 @@ class _LoginPageState extends State<LoginPage> {
             padding: EdgeInsets.only(top: 20.0),
           ),
           Center(
-            child: new InkWell(
-                child: new Text('Belum Punya Akun? Daftar Disini!'),
-                onTap: () {
-                  Navigator.push(
-                    context,
-                    MaterialPageRoute(builder: (context) => Register()),
-                  );
-                }),
-          ),
+              child: InkWell(
+            child: RichText(
+              text: TextSpan(
+                text: 'Belum Punya Akun? Daftar',
+                style: TextStyle(
+                    fontWeight: FontWeight.bold, color: Colors.black54),
+                children: <TextSpan>[
+                  TextSpan(
+                      text: ' Disini!',
+                      style: TextStyle(
+                          fontWeight: FontWeight.bold, color: Colors.green)),
+                ],
+              ),
+            ),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => Register()),
+              );
+            },
+          )),
         ],
       ),
     );

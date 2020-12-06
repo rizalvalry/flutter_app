@@ -44,7 +44,7 @@ class _ProductState extends State<Product> {
           Flexible(
             flex: 1,
             child: Container(
-              margin: const EdgeInsets.all(20),
+              margin: const EdgeInsets.symmetric(horizontal: 20),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
@@ -83,11 +83,12 @@ class _ProductState extends State<Product> {
       itemBuilder: (BuildContext context, int index) {
         // var rate = int.parse(_discount(snapshot.data[index]));
         return SizedBox(
-          height: 320,
+          height: 300,
           width: 250,
           child: SingleChildScrollView(
             child: Container(
               height: 320,
+              // margin: const EdgeInsets.symmetric(horizontal: 20),
               child: Card(
                 shape: RoundedRectangleBorder(
                   borderRadius: BorderRadius.circular(15.0),
@@ -95,14 +96,13 @@ class _ProductState extends State<Product> {
                 clipBehavior: Clip.antiAliasWithSaveLayer,
                 elevation: 3.0,
                 color: Colors.white,
-                margin: EdgeInsets.all(8.0),
                 child: InkWell(
                   child: Column(
                     // crossAxisAlignment: CrossAxisAlignment.start,
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       Image.network(
-                        snapshot.data[index].picture, height: 150,
+                        snapshot.data[index].picture, height: 165,
                         // height: 200,
                         // width: 250,
                       ),
@@ -110,15 +110,15 @@ class _ProductState extends State<Product> {
                         leading: snapshot.data[index].disc != 0
                             ? Icon(
                                 Icons.assignment_turned_in,
-                                size: 30,
+                                size: 25,
                                 color: Colors.red,
                               )
                             : Icon(
                                 Icons.assistant_photo,
-                                size: 30,
+                                size: 25,
                                 color: Colors.red,
                               ),
-                        title: Text(snapshot.data[index].store),
+                        title: Text(snapshot.data[index].store.toUpperCase()),
                         subtitle:
                             Text("Diskon : ${snapshot.data[index].disc} % "),
                       ),
@@ -144,10 +144,12 @@ class _ProductState extends State<Product> {
                       ButtonTheme(
                         minWidth: 200.0,
                         height: 25.0,
+                        padding: EdgeInsets.all(10),
                         child: RaisedButton.icon(
                           icon: Icon(
                             Icons.shopping_cart,
                             color: Colors.white,
+                            size: 10,
                           ),
                           label: Text(
                             'Keranjang',

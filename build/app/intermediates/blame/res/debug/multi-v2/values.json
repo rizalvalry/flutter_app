@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/rizalvalry/Applications/flutter/flutter_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+            "outputFile": "/Users/rizalvalry/Applications/flutter_api/flutter_app/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
             "map": [
                 {
-                    "source": "/Users/rizalvalry/Applications/flutter/flutter_app/android/app/src/main/res/values/styles.xml",
+                    "source": "/Users/rizalvalry/Applications/flutter_api/flutter_app/android/app/src/main/res/values/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",
